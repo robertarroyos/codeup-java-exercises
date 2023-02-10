@@ -5,12 +5,12 @@ public class ControlFlowExercises {
 
 //        Loop Basics - Do-While Loop
 
-        for ( long i = 100; i > -11; i -= 5) {
-            System.out.println(i);
-        }
-
-        for ( long i = 2; i < 1000001; i *= i) {
-            System.out.println(i);
+        for (int i = 1; i < 101; i++) {
+            if (i % 3 == 0) {
+                System.out.println("Fizz");
+            } else if (i % 5 == 0) {
+                System.out.println("Fuzz");
+            } else System.out.println(i);
         }
 
     }
