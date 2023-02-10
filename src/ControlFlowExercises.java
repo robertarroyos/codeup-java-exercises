@@ -5,11 +5,12 @@ public class ControlFlowExercises {
 
 //        Loop Basics - Do-While Loop
 
-        int i = 0;
+        long i = 2;
+
         do {
             System.out.println(i);
-            i++;
-        } while ( i < 101 );
+            i *= i;
+        } while ( i < 1000001 );
 
     }
 }
